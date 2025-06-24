@@ -21,10 +21,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20  # 可按需更换
+          node-version: 16  # 可按需更换
 
       - name: Install dependencies
-        run: npm ci  # 如果你使用的是 yarn 或 pnpm 可替换为相应命令
+        run: npm install  # 如果你使用的是 yarn 或 pnpm 可替换为相应命令
 
       - name: Build project
         run: npm run build
