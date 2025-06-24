@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist  # Vite 默认输出目录为 dist
+          path: build
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
