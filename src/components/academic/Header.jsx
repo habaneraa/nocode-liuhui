@@ -5,7 +5,7 @@ const Header = () => {
     <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
       <div className="flex-shrink-0 transform transition-transform duration-300 hover:scale-105">
         <img 
-          src="https://nocode.meituan.com/photo/search?keyword=professor,academic,technology&width=393&height=222" 
+          src="/images/image005.jpg" 
           alt="刘辉" 
           className="w-full max-w-xs rounded-xl shadow-lg mx-auto object-cover border-4 border-white"
         />
@@ -46,13 +46,13 @@ const Header = () => {
           </p>
         </div>
         
-        <div className="mt-6 transform transition-transform duration-300 hover:scale-105">
+        {/* <div className="mt-6 transform transition-transform duration-300 hover:scale-105">
           <img 
             src="https://nocode.meituan.com/photo/search?keyword=Beijing%20Institute%20of%20Technology,logo&width=200&height=46" 
             alt="BIT Logo" 
             className="mt-2 mx-auto md:mx-0 object-cover"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

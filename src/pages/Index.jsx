@@ -29,7 +29,7 @@ const Index = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <img 
-                      src="https://nocode.meituan.com/photo/search?keyword=deep,learning,code&width=400&height=300" 
+                      src="/images/1549285802_LnE_big.jpg" 
                       alt="深度学习" 
                       className="rounded-lg shadow-md object-cover h-full"
                     />
@@ -46,13 +46,13 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-6 transform transition-all duration-300 hover:shadow-2xl">
+          {/* <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-6 transform transition-all duration-300 hover:shadow-2xl">
             <img 
               src="https://nocode.meituan.com/photo/search?keyword=research,lab,technology&width=400&height=500" 
               alt="研究实验室" 
               className="rounded-lg shadow-md object-cover w-full h-full"
             />
-          </div>
+          </div> */}
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
