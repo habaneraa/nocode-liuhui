@@ -40,7 +40,7 @@ export default defineConfig({
     },
   },
   plugins,
-  base: publicPath,
+  base: '/nocode-liuhui/',
   build: {
     outDir,
   },
