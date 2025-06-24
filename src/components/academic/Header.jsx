@@ -40,10 +40,10 @@ const Header = () => {
               北京理工大学
             </a>
           </p>
-          <p className="text-gray-600 flex items-center">
+          {/* <p className="text-gray-600 flex items-center">
             <span className="bg-blue-100 text-blue-800 p-1 rounded mr-2">📍</span>
             北京, 中国
-          </p>
+          </p> */}
         </div>
         
         {/* <div className="mt-6 transform transition-transform duration-300 hover:scale-105">
